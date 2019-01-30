@@ -22,7 +22,7 @@
 | a PHP script and you can easily do that on your own.
 |
 */
-$config['base_url'] = '';
+$config['base_url'] = 'http://localhost/proyectocodeigniter/';
 
 /*
 |--------------------------------------------------------------------------
@@ -232,7 +232,8 @@ $config['cache_path'] = '';
 | MUST set an encryption key.  See the user guide for info.
 |
 */
-$config['encryption_key'] = '';
+$config['encryption_key'] = '026914-69125-034179-72360-345728';
+
 
 /*
 |--------------------------------------------------------------------------
