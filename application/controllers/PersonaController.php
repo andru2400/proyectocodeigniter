@@ -14,7 +14,10 @@ class PersonaController extends CI_Controller {
 	
 	public function index() // funcion por default
 	{
+		$this->load->view('layout/header');
+		$this->load->view('layout/menu');	
 		$this->load->view('persona/registrarPersonaView');
+		$this->load->view('layout/footer');
 	}
 
 	public function store()

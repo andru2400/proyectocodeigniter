@@ -4,7 +4,7 @@
     <div class="pull-right hidden-xs">
       <b>Version</b> 2.4.0
     </div>
-    <strong>Copyright &copy; 2014-2016 <a href="https://adminlte.io">Almsaeed Studio</a>.</strong> All rights
+    <strong>Copyright &copy; 2014-2016 <a href="">Almsaeed Studio</a>.</strong> All rights
     reserved.
   </footer>
 
@@ -45,3 +45,13 @@
 <script src="<?php echo base_url();?>assets/dist/js/pages/dashboard.js"></script>
 <!-- AdminLTE for demo purposes -->
 <script src="<?php echo base_url();?>assets/dist/js/demo.js"></script>
+
+<?php if($this->uri->segment(1)=='PersonaController') {?>
+  <script src="<?php echo base_url();?>js/persona.js"></script>
+  <!-- Mi script Persona -->
+<?php } ?>
+
+
+
+</body>
+</html>

@@ -32,8 +32,8 @@ class LoginController extends CI_Controller {
 		{
 			$this->load->view('layout/header');
 			$this->load->view('layout/menu');			
-			$this->load->view('persona/HomeView');
-			$this->load->view('layout/menu');
+			$this->load->view('persona/homeView');
+			$this->load->view('layout/footer');
 		}
 		else
 		{	

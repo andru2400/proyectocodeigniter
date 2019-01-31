@@ -1,9 +1,4 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title></title>
-</head>
-<body>
+
 	<h1>Registro - Crear - Persona</h1>
 	<form action="<?php echo base_url();?>PersonaController/store" method="POST">
 		<table>
@@ -22,6 +17,14 @@
 			<tr>
 				<td><label for="segundo_apellido">2 Apellido</label></td>
 				<td><input type="text" name="segundo_apellido"></td>
+			</tr>
+			<tr>
+				<td><label for="segundo_apellido">ciudad</label></td>
+				<td>					
+                  <select id="cbociudad" class="form-control">
+                    <option value="">Elija.</option>                                 
+                  </select>                
+				</td>
 			</tr>
 			<tr>
 				<td><label for="email">Email</label></td>
@@ -48,5 +51,8 @@
 		</table>
 	</form>
 	<a href="<?php echo base_url();?>LoginController">Loguearse</a>
-</body>
-</html>
+
+<script>
+	var baseUrl = "<?php echo base_url();?>"; // se crea una variable para js, con la url. para poder hacer ajax.
+	// alert(baseUrl);	
+</script>

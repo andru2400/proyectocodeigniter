@@ -5,7 +5,7 @@
       <!-- Sidebar user panel -->
       <div class="user-panel">
         <div class="pull-left image">
-          <img src="dist/img/user2-160x160.jpg" class="img-circle" alt="User Image">
+          <img src="<?php echo base_url();?>assets/dist/img/user2-160x160.jpg" class="img-circle" alt="User Image">
         </div>
         <div class="pull-left info">
           <p>Alexander Pierce</p>
@@ -34,8 +34,8 @@
             </span>
           </a>
           <ul class="treeview-menu">
-            <li class="active"><a href="index.html"><i class="fa fa-circle-o"></i> Dashboard v1</a></li>
-            <li><a href="index2.html"><i class="fa fa-circle-o"></i> Dashboard v2</a></li>
+            <li class="active"><a href="<?php echo base_url();?>PersonaController/index"><i class="fa fa-circle-o"></i> Registrar persona</a></li>
+            <li><a href="index2.html"><i class="fa fa-circle-o"></i> </a></li>
           </ul>
         </li>
         <li class="treeview">
@@ -198,6 +198,6 @@
     </section>
     <!-- /.sidebar -->
   </aside>
-
-  !-- Content Wrapper. Contains page content -->
+  
+  <!-- Content Wrapper. Contains page content -->
   <div class="content-wrapper">
